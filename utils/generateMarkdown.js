@@ -186,15 +186,15 @@ const getQuestions = (contact, gitHubName, gitHubLink, TOC) => {
   if (contact) {
     return `
 # Questions
-Contact: ${contact}
-GitHub Name: ${gitHubName}
-GitHub Link: ${gitHubLink}
+- Contact: ${contact}
+- GitHub Name: ${gitHubName}
+- GitHub Link: ${gitHubLink}
   `;
   } else {
     return `
 # Questions
-GitHub Name: ${gitHubName}
-GitHub Link: ${gitHubLink}
+- GitHub Name: ${gitHubName}
+- GitHub Link: ${gitHubLink}
       `;
   }
 };

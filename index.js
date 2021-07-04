@@ -54,9 +54,9 @@ class Questions {
 
     this.license = {
       title: `
-=======
-License
-=======
+ =======
+ License
+ =======
 `,
       input: "Choose from the following license: ",
     };

@@ -22,8 +22,10 @@ const generateMarkdown = (data) => {
   } = data;
   return `
 ${getBadges(license, badges)}
-# ${title}
-### Developed By: ${developer}
+# ${title}             
+## Developed By: ${developer}
+</br>
+</br>
 
 # Description
 ${description}
